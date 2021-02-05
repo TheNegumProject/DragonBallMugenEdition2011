@@ -1,0 +1,28 @@
+; Definition file for Trunkz by Chrono_Strife and LoneWolf
+; Contains all the filenames needed for the character
+; Player information
+
+[Info]
+name ="Trunkz"
+displayname ="Trunks 2"
+versiondate =2006,01,14
+mugenversion =2003,06,14
+author ="Chrono_Strife and LoneWolf"
+pal.defaults =1,2,3,4
+
+; Files for the player
+[Files]
+cmd      =TrunkzCMD.cmd
+cns      =TrunkzCNS.cns
+st       =TrunkzCNS.cns
+stcommon =commonCNS.cns
+sprite   =TrunkzSFF.sff
+anim     =TrunkzAIR.air
+sound    =TrunkzSND.snd
+pal1=TrunkzPurple.act
+pal2=TrunkzDark.act
+
+[Arcade]
+;intro.storyboard=story/intro.def
+ending.storyboard=..\data\final.def
+intro.storyboard=
